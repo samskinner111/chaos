@@ -1,7 +1,7 @@
 ## May's diffference equation
 require 'yaml'
 
-def yaml_save object, fileout  # Save results to a file
+def yaml_save(object, fileout)  # Save results to a file
   File.open fileout, 'w' do |f|
     f.write(object.to_yaml)
   end
